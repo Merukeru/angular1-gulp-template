@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Merukeru/angular1-gulp-template1.svg?branch=master)](https://travis-ci.org/Merukeru/angular1-gulp-template1)
+[![Build Status](https://travis-ci.org/Merukeru/angular1-gulp-template.svg?branch=master)](https://travis-ci.org/Merukeru/angular1-gulp-template)
 
 # AngularJS Template
 
