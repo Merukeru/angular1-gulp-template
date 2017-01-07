@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular Template - Gulp Karma Jasmine PhantomJS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="favicon.gif" rel="icon" type="image/gif"/>
+  <!-- css will be injected here by gulp-inject -->
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+
+<body ng-app="angularGulpTemplate">
+
+<!-- Add your site or application content here -->
+<div class="header">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-brand">
+          <a ui-sref="home"><img alt="Brand" src="images/Template.png"></a>
+        </div>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+        <li><a ui-sref="components" ui-sref-active="active">Components</a></li>
+        <li><a ui-sref="infos" ui-sref-active="active">Infos</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div ui-view=""></div>
+</div>
+
+<div class="footer">
+  <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text navbar-right"><span class="glyphicon glyphicon-star"></span> made by Merukeru</p>
+    </div>
+  </div>
+</div>
+<!-- js will be injected here by gulp-inject -->
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>

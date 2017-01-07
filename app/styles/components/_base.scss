@@ -1,0 +1,49 @@
+html {
+  background: $my-app-white;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: $my-app-white;
+}
+
+.header {
+  background: $my-app-white;
+}
+
+.footer {
+  border-top-color: $my-app-lightgray;
+}
+
+.navbar-default {
+  background: $my-app-white;
+}
+
+.navbar {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .active, .navbar .navbar-nav .active:focus, .navbar .navbar-nav .active:hover {
+  color: $my-app-lightblue;
+  background: $my-app-white;
+}
+
+.navbar-brand img {
+  height: 22px;
+}
+
+.gallery .thumbnail {
+  height: 100px;
+}
+
+.gallery img {
+  display: block;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
