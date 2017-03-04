@@ -1,6 +1,6 @@
 {
   "name": "angular-gulp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Template for AngularJS projects using Gulp, Karma, Jasmine and Browsersync as toolchain.",
   "author": "Merukeru",
   "license": "MIT",
@@ -10,19 +10,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/Merukeru/angular1-gulp-template"
   },
   "keywords": [
     "angularjs",
     "gulp",
+    "quick",
+    "start",
+    "boilerplate",
+    "seed",
+    "template",
     "karma",
     "jasmine",
     "browsersync",
-    "template",
     "yarn"
   ],
   "devDependencies": {
-    "angular-mocks": "^1.5.7",
+    "angular-mocks": "1.5.8",
     "browser-sync": "^2.17.5",
     "browser-sync-spa": "^1.0.3",
     "dateformat": "^1.0.12",
