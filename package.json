@@ -71,7 +71,7 @@
     "karma-ng-html2js-preprocessor": "^1.0.0",
     "karma-phantomjs-launcher": "^1.0.1",
     "lazypipe": "^1.0.1",
-    "lodash": "^4.13.1",
+    "lodash": "^4.17.21",
     "minimatch": "^3.0.2",
     "require-dir": "^0.3.0",
     "run-sequence": "^1.2.2"
